@@ -8,6 +8,11 @@ int main(){
 	cin>>b;
 	cout<<"Enter a number"<<endl;
 	cin>>c;
+	if(a==b && b==c) {
+		cout<<"They are equal";
+	}
+	else{
+	}
 	if(a>b && a>c){
       cout<<"a is the greatest"<<a;
 }
@@ -24,9 +29,11 @@ int main(){
 	
 			cout<<c<<" is the greatest";
 		}
+			
+		}
 		}
 	}
 		
-	}
+	
 
 
